@@ -12,7 +12,7 @@ greg : greg.o $(OBJS)
 	mv $@-new $@
 
 ROOT	=
-PREFIX	= /usr
+PREFIX	= /usr/local
 BINDIR	= $(ROOT)$(PREFIX)/bin
 
 install : $(BINDIR)/greg
